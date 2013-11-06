@@ -1,0 +1,362 @@
+
+a:focus {
+
+    outline: thin dotted #333 !important;
+
+    outline: 5px auto -webkit-focus-ring-color !important;
+
+    outline-offset: -2px !important;
+
+}
+
+body {
+
+    background-color: #fcfcfc;
+
+}
+
+nav {
+
+    padding: 5px 0;
+
+}
+
+header {
+
+    background-color: #e64534;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.uk-navbar {
+
+    background: none;
+
+}
+
+.uk-navbar-nav, .uk-navbar-toggle {
+
+    margin-top: 22px;
+
+    color: #fff;
+
+}
+
+.uk-navbar-brand {
+
+    height: auto !important;
+
+}
+
+.uk-navbar-nav li a {
+
+    color: #fff;
+
+    border: solid 1px rgba(255, 255, 255, 0.15);
+
+    margin-left: 3px;
+
+    border-radius: 5px;
+
+}
+
+.uk-navbar-nav li a {
+
+}
+
+.uk-offcanvas-bar {
+
+    box-shadow: -3px 0 5px 0 rgba(0, 0, 0, 0.5) inset;
+
+}
+
+.uk-nav-offcanvas>li>a {
+
+    color:#ccc;
+
+    padding:10px 15px;
+
+    border-top:1px solid rgba(0, 0, 0, 0.3);
+
+    box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+    text-shadow:0 1px 0 rgba(0, 0, 0, 0.5)
+
+}
+
+.uk-nav-offcanvas>.uk-open>a, html:not(.uk-touch) .uk-nav-offcanvas>li>a:hover, html:not(.uk-touch) .uk-nav-offcanvas>li>a:focus {
+
+    background:#404040;
+
+    color:#fff;
+
+    outline:0
+
+}
+
+html .uk-nav.uk-nav-offcanvas>li.uk-active>a {
+
+    background:#1a1a1a;
+
+    color:#fff;
+
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.3)
+
+}
+
+.uk-nav-offcanvas .uk-nav-header {
+
+    color:#777;
+
+    margin-top:0;
+
+    border-top:1px solid rgba(0, 0, 0, 0.3);
+
+    background:#404040;
+
+    box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+    text-shadow:0 1px 0 rgba(0, 0, 0, 0.5)
+
+}
+
+.uk-nav-offcanvas .uk-nav-divider {
+
+    border-top:1px solid rgba(255, 255, 255, 0.01);
+
+    margin:0;
+
+    height:4px;
+
+    background:rgba(0, 0, 0, 0.2);
+
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.3)
+
+}
+
+.uk-nav-offcanvas ul a {
+
+    color:#ccc
+
+}
+
+html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
+
+    color:#fff
+
+}
+
+.uk-offcanvas ::-webkit-scrollbar {
+
+    width: 10px;
+
+    height: 10px;
+
+}
+
+.uk-offcanvas ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+
+    display: none;
+
+}
+
+.uk-offcanvas ::-webkit-scrollbar-track-piece {
+
+    background-color: #3b3b3b;
+
+}
+
+.uk-offcanvas ::-webkit-scrollbar-thumb:vertical {
+
+    background: #666;
+
+}
+
+.uk-button {
+
+    border-radius: 5px;
+
+}
+
+.slide-home {
+
+    margin: 10px 0;
+
+}
+
+.slide-home .item img {
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+.slide-home .owl-controls {
+
+    margin-top: -25px !important;
+
+}
+
+.carousel-home .item {
+
+    margin: 3px;
+
+}
+
+.carousel-home .item img {
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    margin-bottom: 8px;
+
+}
+
+.box-news {
+
+    background-color: #00aff0;
+
+    padding: 0;
+
+}
+
+.box-news h4 {
+
+    padding: 0;
+
+    margin: 5px;
+
+    font-size: 1.1em;
+
+    height: 35px;
+
+    color: #000;
+
+}
+
+.box-news hr {
+
+    border-top: solid 1px #01a2de;
+
+    border-bottom: solid 1px #00baff;
+
+    margin: 0 0 5px;
+
+}
+
+.box-news p {
+
+    padding: 0;
+
+    margin: 5px;
+
+    font-size: 0.95em;
+
+    height: 80px;
+
+    color: #fff;
+
+}
+
+.box-news .calendar {
+
+    background-color: #fff;
+
+    padding: 10px 5px;
+
+    color: #111;
+
+    border-left: solid 1px #e8e8e8;
+
+    border-right: solid 1px #e8e8e8;
+
+    border-bottom: solid 1px #e8e8e8;
+
+    margin-bottom: 10px;
+
+}
+
+.list-links {
+
+    min-height: 361px;
+
+}
+
+.list-links li {
+
+    font-size: 1.3em;
+
+    border-left: 3px solid #28b862;
+
+    padding: 6px;
+
+    margin-bottom: 5px;
+
+}
+
+.margin-top-15 {
+
+    margin-top: 15px;
+
+}
+
+.brand-gov {
+
+    margin: 5px 0;
+
+}
+
+footer {
+
+    padding: 15px 0;
+
+    background-color: #303638;
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3) inset;
+
+}
+
+.copyright {
+
+    background-color: #2a2f31;
+
+    color: #fff;
+
+    padding: 10px 0;
+
+    font-size: 0.8em;
+
+}
+
+.copyright a {
+
+    color: #fff;
+
+}
+
+@media (max-width: 876px) {
+
+    .uk-navbar-nav li a {
+
+        padding: 0 5px;
+
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .small-screen-center {
+
+        text-align: center !important;
+
+    }
+
+}
